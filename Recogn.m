@@ -1,6 +1,6 @@
 names = fileread('Neuro_Recogn/File_Name_tx1.txt');
 str_names = strsplit(names);
-a = cell(20);
+a = cell(16);
 for i=1:16
     s = strcat('Neuro_Recogn/',str_names{i},'.bmp');
     a{i} = imread(s);
